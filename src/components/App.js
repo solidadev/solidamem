@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Web3 from 'web3'
 import './App.css';
-import MemoryToken from '../abis/MemoryToken.json'
+import SolidamemToken from '../abis/SolidamemToken.json'
 import brain from '../brain.png'
 
 class App extends Component {

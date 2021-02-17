@@ -1,4 +1,4 @@
-const MemoryToken = artifacts.require("MemoryToken");
+const SolidamemToken = artifacts.require("SolidamemToken");
 
 module.exports = function(deployer) {
   // Code goes here...

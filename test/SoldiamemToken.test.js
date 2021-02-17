@@ -1,4 +1,4 @@
-const MemoryToken = artifacts.require('./MemoryToken.sol')
+const SolidamemToken = artifacts.require('./SolidamemToken.sol')
 
 require('chai')
   .use(require('chai-as-promised'))
