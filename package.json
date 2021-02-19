@@ -16,6 +16,7 @@
     "chai": "4.2.0",
     "chai-as-promised": "7.1.1",
     "chai-bignumber": "3.0.0",
+    "identicon.js": "^2.3.3",
     "react": "16.8.4",
     "react-bootstrap": "^1.0.0-beta.5",
     "react-dom": "16.8.4",
@@ -26,10 +27,12 @@
     "web3": "1.0.0-beta.55"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
