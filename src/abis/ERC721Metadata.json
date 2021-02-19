@@ -37812,7 +37812,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-02-19T00:25:46.354Z",
+  "updatedAt": "2021-02-19T02:06:11.131Z",
   "devdoc": {
     "methods": {
       "approve(address,uint256)": {
